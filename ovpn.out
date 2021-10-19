@@ -1,0 +1,44 @@
+Tue Mar 17 14:28:08 2020 Unrecognized option or missing or extra parameter(s) in client1.ovpn:14: block-outside-dns (2.4.0)
+Tue Mar 17 14:28:08 2020 OpenVPN 2.4.0 arm-unknown-linux-gnueabihf [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Oct 14 2018
+Tue Mar 17 14:28:08 2020 library versions: OpenSSL 1.0.2s  28 May 2019, LZO 2.08
+Tue Mar 17 14:28:08 2020 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+Tue Mar 17 14:28:08 2020 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+Tue Mar 17 14:28:08 2020 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+Tue Mar 17 14:28:08 2020 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+Tue Mar 17 14:28:08 2020 TCP/UDP: Preserving recently used remote address: [AF_INET]35.227.184.91:11941
+Tue Mar 17 14:28:08 2020 Socket Buffers: R=[163840->163840] S=[163840->163840]
+Tue Mar 17 14:28:08 2020 UDP link local: (not bound)
+Tue Mar 17 14:28:08 2020 UDP link remote: [AF_INET]35.227.184.91:11941
+Tue Mar 17 14:28:08 2020 TLS: Initial packet from [AF_INET]35.227.184.91:11941, sid=17630a9e 605d6a9d
+Tue Mar 17 14:28:09 2020 VERIFY OK: depth=1, CN=ChangeMe
+Tue Mar 17 14:28:09 2020 Validating certificate key usage
+Tue Mar 17 14:28:09 2020 ++ Certificate has key usage  00a0, expects 00a0
+Tue Mar 17 14:28:09 2020 VERIFY KU OK
+Tue Mar 17 14:28:09 2020 Validating certificate extended key usage
+Tue Mar 17 14:28:09 2020 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Tue Mar 17 14:28:09 2020 VERIFY EKU OK
+Tue Mar 17 14:28:09 2020 VERIFY OK: depth=0, CN=server
+Tue Mar 17 14:28:09 2020 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Tue Mar 17 14:28:09 2020 [server] Peer Connection Initiated with [AF_INET]35.227.184.91:11941
+Tue Mar 17 14:28:10 2020 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Tue Mar 17 14:28:10 2020 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+Tue Mar 17 14:28:10 2020 Pushed option removed by filter: 'redirect-gateway def1 bypass-dhcp'
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: timers and/or timeouts modified
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: --ifconfig/up options modified
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: route-related options modified
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: peer-id set
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: adjusting link_mtu to 1624
+Tue Mar 17 14:28:10 2020 OPTIONS IMPORT: data channel crypto options modified
+Tue Mar 17 14:28:10 2020 Data Channel Encrypt: Cipher 'AES-256-GCM' initialized with 256 bit key
+Tue Mar 17 14:28:10 2020 Data Channel Decrypt: Cipher 'AES-256-GCM' initialized with 256 bit key
+Tue Mar 17 14:28:10 2020 TUN/TAP device tun0 opened
+Tue Mar 17 14:28:10 2020 TUN/TAP TX queue length set to 100
+Tue Mar 17 14:28:10 2020 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Tue Mar 17 14:28:10 2020 /sbin/ip link set dev tun0 up mtu 1500
+Tue Mar 17 14:28:10 2020 /sbin/ip addr add dev tun0 10.8.0.2/24 broadcast 10.8.0.255
+Tue Mar 17 14:28:10 2020 Initialization Sequence Completed
+Tue Mar 17 14:28:11 2020 event_wait : Interrupted system call (code=4)
+Tue Mar 17 14:28:11 2020 Closing TUN/TAP interface
+Tue Mar 17 14:28:11 2020 /sbin/ip addr del dev tun0 10.8.0.2/24
+Tue Mar 17 14:28:11 2020 SIGINT[hard,] received, process exiting
